@@ -1,0 +1,11 @@
+Các thay đổi chính:
+1. Đổi giao diện client sang Sweet Bakery.
+2. Đổi banner, trang chủ, trang chi tiết sản phẩm, trang sale và các trang chính sách.
+3. Đổi giao diện quản trị phần sản phẩm sang nhập thông tin bánh ngọt.
+4. Thêm seeders mẫu: BakeryCategorySeeder, BakeryBrandSeeder, BakeryProductSeeder.
+5. DatabaseSeeder đã gọi các seeder mới.
+6. Chatbot/email đổi thương hiệu sang Sweet Bakery.
+
+Cách chạy seed dữ liệu mẫu:
+php artisan migrate
+php artisan db:seed

@@ -1,0 +1,29 @@
+BAN NANG CAP BAN CHUAN TIEM BANH
+
+1. Da bo sung migration moi cho bang products voi cac cot dung cho tiem banh:
+- cake_type, size, serving_size, flavor, occasion, collection
+- ingredients, allergens, storage_instructions, shelf_life
+- is_customizable, custom_message, lead_time_hours, is_featured
+
+2. Da cap nhat Model Product de uu tien doc cac truong bakery moi va van tuong thich du lieu cu.
+
+3. Da cap nhat form quan tri san pham:
+- nhap loai banh, kich co, khau phan, huong vi, dip su dung
+- thanh phan, di ung, bao quan, han dung
+- tuy chinh viet chu, san pham noi bat, thoi gian dat truoc
+
+4. Da cap nhat giao dien client:
+- trang chi tiet hien thong tin banh dung chuan bakery
+- trang cua hang hien thong tin nhanh nhu loai, vi, kich co
+- trang sale da sua bien hien thi dung
+- trang checkout goi y ghi chu viet chu len banh
+
+5. Seed du lieu mau da duoc doi sang cau truc bakery moi.
+
+LENH CAN CHAY SAU KHI GIAI NEN:
+php artisan migrate
+php artisan db:seed
+
+Neu database cu da ton tai, chi can chay:
+php artisan migrate
+php artisan db:seed
